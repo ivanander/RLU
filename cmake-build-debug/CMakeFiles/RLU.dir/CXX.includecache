@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/dev/CLion_projects/RLU/Common.h
+memory
+-
+string
+-
+
+C:/dev/CLion_projects/RLU/Solution.cpp
+Common.h
+C:/dev/CLion_projects/RLU/Common.h
+list
+-
+unordered_map
+-
+mutex
+-
+
